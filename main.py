@@ -74,6 +74,5 @@ async def handle_request(document: Document):
     print(result)
     return result[0]
 
-if __name__ == '__main__':
 # 启动创建的实例app，设置启动ip和端口号
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+uvicorn.run(app, host="127.0.0.1", port=8000)
