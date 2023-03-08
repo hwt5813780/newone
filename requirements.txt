@@ -1,6 +1,5 @@
 fastapi
 openai
 pydantic
-requests
 uvicorn
 asyncio
